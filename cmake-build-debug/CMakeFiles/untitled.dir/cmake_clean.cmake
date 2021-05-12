@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/array.c.o"
+  "CMakeFiles/untitled.dir/array/array.c.o"
   "CMakeFiles/untitled.dir/main.c.o"
   "untitled"
   "untitled.pdb"

@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/maomao/CLionProjects/daily-c-exercises/array.c">
+		<Unit filename="/Users/maomao/CLionProjects/daily-c-exercises/array/array.c">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/maomao/CLionProjects/daily-c-exercises/main.c">

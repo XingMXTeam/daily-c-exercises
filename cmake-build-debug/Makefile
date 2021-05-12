@@ -142,32 +142,32 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-array.o: array.c.o
+array/array.o: array/array.c.o
 
-.PHONY : array.o
+.PHONY : array/array.o
 
 # target to build an object file
-array.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array.c.o
-.PHONY : array.c.o
+array/array.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array/array.c.o
+.PHONY : array/array.c.o
 
-array.i: array.c.i
+array/array.i: array/array.c.i
 
-.PHONY : array.i
+.PHONY : array/array.i
 
 # target to preprocess a source file
-array.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array.c.i
-.PHONY : array.c.i
+array/array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array/array.c.i
+.PHONY : array/array.c.i
 
-array.s: array.c.s
+array/array.s: array/array.c.s
 
-.PHONY : array.s
+.PHONY : array/array.s
 
 # target to generate assembly for a file
-array.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array.c.s
-.PHONY : array.c.s
+array/array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array/array.c.s
+.PHONY : array/array.c.s
 
 main.o: main.c.o
 
@@ -205,9 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
-	@echo "... array.o"
-	@echo "... array.i"
-	@echo "... array.s"
+	@echo "... array/array.o"
+	@echo "... array/array.i"
+	@echo "... array/array.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

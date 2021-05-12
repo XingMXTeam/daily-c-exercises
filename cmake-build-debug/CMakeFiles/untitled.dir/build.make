@@ -89,29 +89,29 @@ CMakeFiles/untitled.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maomao/CLionProjects/daily-c-exercises/main.c -o CMakeFiles/untitled.dir/main.c.s
 
-CMakeFiles/untitled.dir/array.c.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/array.c.o: ../array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maomao/CLionProjects/daily-c-exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/array.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/array.c.o -c /Users/maomao/CLionProjects/daily-c-exercises/array.c
+CMakeFiles/untitled.dir/array/array.c.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/array/array.c.o: ../array/array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maomao/CLionProjects/daily-c-exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/array/array.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/array/array.c.o -c /Users/maomao/CLionProjects/daily-c-exercises/array/array.c
 
-CMakeFiles/untitled.dir/array.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/array.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maomao/CLionProjects/daily-c-exercises/array.c > CMakeFiles/untitled.dir/array.c.i
+CMakeFiles/untitled.dir/array/array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/array/array.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/maomao/CLionProjects/daily-c-exercises/array/array.c > CMakeFiles/untitled.dir/array/array.c.i
 
-CMakeFiles/untitled.dir/array.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/array.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maomao/CLionProjects/daily-c-exercises/array.c -o CMakeFiles/untitled.dir/array.c.s
+CMakeFiles/untitled.dir/array/array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/array/array.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/maomao/CLionProjects/daily-c-exercises/array/array.c -o CMakeFiles/untitled.dir/array/array.c.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.c.o" \
-"CMakeFiles/untitled.dir/array.c.o"
+"CMakeFiles/untitled.dir/array/array.c.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.c.o
-untitled: CMakeFiles/untitled.dir/array.c.o
+untitled: CMakeFiles/untitled.dir/array/array.c.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/maomao/CLionProjects/daily-c-exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable untitled"

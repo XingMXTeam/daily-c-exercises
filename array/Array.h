@@ -12,13 +12,13 @@ typeof struct Array {
     /**
      * size
      */
-    size_t size;
-    size_t len;
-    size_t typeSize;
+    size_t size;// the total size
+    size_t len;// occupied size
+    size_t typeSize;//data type size
     void (*dup)(void *ptr, void *key);
     void (*free)(void *ptr);
     int (*match)(void *ptr, void *key);
-    void *p;
+    void *p;// save data pointer
 } Array;
 
 #define arraySetDupMethod(a, m) ((a)->dup = (m))
@@ -29,7 +29,7 @@ typeof struct Array {
 #define arrayGetFree(a) ((a)->free)
 #define arrayGetMatchMethod(a) ((a)->match)
 
-Array* arrayCreate();//?
+Array* arrayCreate();//? to declare a function
 void arrayInit(Array *array, int size, int typeSize);
 
 int arrayInsert(Array *array, size_t pos, void *const value);//? void *const

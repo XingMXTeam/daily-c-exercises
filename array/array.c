@@ -1,5 +1,5 @@
 //
-// dynamic array: from small to big
+// dynamic array: from small to big which support space changed by elements add if necessary
 //
 // Created by 毛毛 on 2021/5/13.
 //

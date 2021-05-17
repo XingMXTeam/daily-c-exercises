@@ -5,21 +5,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef struct array {
-    size_t size;
-    size_t len;
-    size_t typeSize;
-    void* p;
-} Array;
-
-Array* createArray() {
-    struct Array *array = NULL;
-    array = malloc(sizeof(*array ));
-    array->size = 0;
-    array->len = 0;
-    return array;
-}
+#include "mergeArray.h"
 
 Array* initArray(Array *array, size_t size, size_t typeSize) {
     if(NULL == array || size == NULL || typeSize == NULL) {
@@ -70,4 +56,10 @@ Array* merge(Array *a1, Array*a2, Array *result) {
         }
     }
     return result;
+}
+
+void* printArray(Array *p) {
+    for(int i=0; i<p->len; i++) {
+        printf("%d\n", &(p+i));
+    }
 }

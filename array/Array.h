@@ -10,9 +10,6 @@
 #include <stdlib.h>
 
 typeof struct Array {
-    /**
-     * size
-     */
     size_t size;// the total size
     size_t len;// occupied size
     size_t typeSize;//data type size
@@ -22,6 +19,7 @@ typeof struct Array {
     void *p;// save data pointer
 } Array;
 
+// macro declare
 #define arraySetDupMethod(a, m) ((a)->dup = (m))
 #define arraySetFreeMethod(a, m) ((a)->free = (m))
 #define arraySetMatchMethod(a, m) ((a)->match = (m))
@@ -30,7 +28,8 @@ typeof struct Array {
 #define arrayGetFree(a) ((a)->free)
 #define arrayGetMatchMethod(a) ((a)->match)
 
-Array* arrayCreate();//? to declare a function
+// function declare
+Array* arrayCreate();// to declare a function
 void arrayInit(Array *array, int size, int typeSize);
 
 int arrayInsert(Array *array, size_t pos, void *const value);//? void *const
